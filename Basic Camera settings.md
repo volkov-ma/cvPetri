@@ -20,6 +20,7 @@
 | `NoiseReductionStrength` | Сила шумоподавления (если включено) | 0.0 – 1.0                                                                                 |
 
 
+```
 #Example
 picam2.set_controls({
     "AeEnable": False,             # Disable auto exposure
@@ -28,3 +29,4 @@ picam2.set_controls({
     "ExposureTime": 10000,         # 10 ms exposure
     "ColourGains": (2.0, 1.5),     # Manual white balance (R gain, B gain)
 })
+```
